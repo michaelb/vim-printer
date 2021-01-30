@@ -27,7 +27,7 @@ let s:vim_printer_items_full = {
             \ 'lua': 'print("{$}: ", {$})',
             \ 'swift': 'print("{$}: ", {$})',
             \ 'php': 'print {$}: “,${$};',
-            \ 'cpp': 'std::cout << "{$}: " << {$} << std::endl;'
+            \ 'cpp': 'std::cout << "{$}: " << {$} << std::endl;',
             \ 'f90': 'write(6,*)"{$}: ", {$}' 
             \ }
 
